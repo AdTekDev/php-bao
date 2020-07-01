@@ -27,6 +27,8 @@
                    $get_slides = "select * from slider LIMIT 0,1";
                    
                    $run_slides = mysqli_query($con,$get_slides);
+		       
+		       echo "---trong code co SQL index !";
                    
                    while($row_slides=mysqli_fetch_array($run_slides)){
                        
