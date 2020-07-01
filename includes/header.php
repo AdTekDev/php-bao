@@ -10,6 +10,7 @@ include("functions/functions.php");
 <?php 
 
 if(isset($_GET['pro_id'])){
+    echo "---trong code co SQL !";
     
     $product_id = $_GET['pro_id'];
     
