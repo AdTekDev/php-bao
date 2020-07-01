@@ -51,7 +51,10 @@
                     
                         $run_p_cats = mysqli_query($con,$get_p_cats);
                     
+                        echo "---trong code co SQL !";
+                    
                         while($row_p_cats=mysqli_fetch_array($run_p_cats)){
+                            
                             
                             $p_cat_id = $row_p_cats['p_cat_id'];
                             
